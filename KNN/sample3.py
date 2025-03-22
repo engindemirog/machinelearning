@@ -30,7 +30,7 @@ joblib.dump(model,"knn_model.pkl")
 
 app = Flask(__name__) #json,restful
 
-# Modeli yükle
+
 model = joblib.load("knn_model.pkl")
 
 @app.route("/")
