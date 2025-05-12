@@ -1,0 +1,20 @@
+Evaluation Report for Category_4
+==================================================
+
+Classification threshold: 0.5
+
+              precision    recall  f1-score   support
+
+           0       0.87      1.00      0.93       104
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.87       120
+   macro avg       0.43      0.50      0.46       120
+weighted avg       0.75      0.87      0.80       120
+
+Additional Metrics:
+--------------------
+Number of samples: 120
+Number of positive samples: 16
+Number of predicted positive samples: [0]
+Positive class ratio: 13.33%
